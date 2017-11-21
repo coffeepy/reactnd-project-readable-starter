@@ -3,27 +3,38 @@ const clone = require('clone')
 let db = {}
 
 const defaultData = {
-  "8xf0y6ziyjabvozdd253nd": {
-    id: '8xf0y6ziyjabvozdd253nd',
-    timestamp: 1467166872634,
-    title: 'Udacity is the best place to learn React',
-    body: 'Everyone says so after all.',
-    author: 'thingtwo',
-    category: 'react',
-    voteScore: 6,
+  "jaa6f57k": {
+    id: 'jaa6f57k',
+    timestamp: 1511302387232,
+    title: 'I have a theory ... not sure yet !!SPOILERS',
+    body: 'I think Darth Vader is Lukes dad...maybe... any ideas?',
+    author: 'secre_trekkie',
+    category: 'starwars',
+    voteScore: -4,
     deleted: false,
-    commentCount: 2
+    commentCount: 1,
   },
-  "6ni6ok3ym7mf1p33lnez": {
-    id: '6ni6ok3ym7mf1p33lnez',
-    timestamp: 1468479767190,
-    title: 'Learn Redux in 10 minutes!',
-    body: 'Just kidding. It takes more than 10 minutes to learn technology.',
-    author: 'thingone',
-    category: 'redux',
+  "jaa6glc8": {
+    id: 'jaa6glc8',
+    timestamp: 1511302454792,
+    title: 'Okay, do we really need this many cats on the internet?',
+    body: 'Just saying..i like cats...but Im afraid the cats may take over soon.....',
+    author: 'doglover',
+    category: 'cats',
     voteScore: -5,
     deleted: false,
-    commentCount: 0
+    commentCount: 1,
+  },
+  "jaa6d7m7": {
+    id: 'jaa6d7m7',
+    timestamp: 1511302297038,
+    title: 'Guys, DC rocks, i dont even like Marvel',
+    body: 'Just Kidding',
+    author: 'lolguys',
+    category: 'marvel',
+    voteScore: -6,
+    deleted: false,
+    commentCount: 0,
   }
 }
 
